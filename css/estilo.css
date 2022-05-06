@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
 *{
     font-family: Inter;
-    box-sizing: border-box
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
-    font-weigth: 100;
+    font-weight: 100;
 
 }
 
