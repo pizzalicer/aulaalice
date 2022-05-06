@@ -47,13 +47,15 @@ main{
 
 footer{
     background-color: var(--primary);
+    display: flex;
+    align-items: center ;
     height: 3rem;
 }
 footer div {
     height: 4rem;
     display: flex;
     align-items: center;
-}
+  }
 .content {
     width: 100%;
     max-width: 1372px;
@@ -63,3 +65,12 @@ footer div {
 main > picture.main > img {
     width: 100%;
   }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+main{
+    background-color: var(--third);
+}
