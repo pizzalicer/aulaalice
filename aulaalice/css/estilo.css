@@ -48,7 +48,14 @@ main{
     display: flex;
   justify-content: center;
   align-items: center;
+
   height: 800px;
+}
+main.fofocas {
+    flex-direction: column;
+}
+main.fofocas h1 {
+    margin-bottom: 2rem;
 }
 
 footer{
@@ -95,4 +102,7 @@ img h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  main div picture a img{
+      margin-top: 1rem;
   }
